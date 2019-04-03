@@ -1,0 +1,184 @@
+body {
+  background: url(images/Background.jpg) center center fixed;
+  background-size: cover;
+  color: #33cc33;
+}
+
+/*Title*/
+#header {
+  text-align: center;
+  font-size: 7vw;
+  text-shadow: 0 0 3px #000000;
+  /* text-shadow: 1px 1px 1px #004d1a,
+        1px 2px 1px #004d1a,
+        1px 3px 1px #004d1a,
+        1px 4px 1px #004d1a,
+        1px 5px 1px #004d1a,
+        1px 6px 1px #004d1a,
+        1px 7px 1px #004d1a,
+        1px 8px 1px #004d1a,
+        1px 9px 1px #004d1a,
+        1px 10px 1px #004d1a,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); */
+}
+
+/*Lap*/
+#lap {
+  text-align: right;
+  font-size: 4vw;
+  text-shadow: 0 0 3px #000000;
+  /* text-shadow: 1px 1px 1px #004d1a,
+        1px 2px 1px #004d1a,
+        1px 3px 1px #004d1a,
+        1px 4px 1px #004d1a,
+        1px 5px 1px #004d1a,
+        1px 6px 1px #004d1a,
+        1px 7px 1px #004d1a,
+        1px 8px 1px #004d1a,
+        1px 9px 1px #004d1a,
+        1px 10px 1px #004d1a,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); */
+}
+
+#time {
+  text-align: center;
+  font-size: 10vw;
+  text-shadow: 0 0 3px #000000;
+  /* text-shadow: 1px 1px 1px #004d1a,
+        1px 2px 1px #004d1a,
+        1px 3px 1px #004d1a,
+        1px 4px 1px #004d1a,
+        1px 5px 1px #004d1a,
+        1px 6px 1px #004d1a,
+        1px 7px 1px #004d1a,
+        1px 8px 1px #004d1a,
+        1px 9px 1px #004d1a,
+        1px 10px 1px #004d1a,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); */
+}
+
+/*Buttons*/
+#controlsContainer {
+  margin-bottom: 100px;
+}
+
+.start {
+  color: white;
+  background-color: #33cc33;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+}
+
+.start:active {
+  background-color: white;
+  color: #33cc33;
+}
+
+.stop {
+  color: white;
+  background-color: #ff0000;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+}
+
+.stop:active {
+  background-color: white;
+  color: #ff0000;
+}
+
+.resume {
+  color: white;
+  background-color: #ffcc00;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+}
+
+.resume:active {
+  background-color: white;
+  color: #ffcc00;
+}
+
+.lap {
+  color: white;
+  background-color: #ffcc00;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+}
+
+.lap:active {
+  background-color: white;
+  color: #ffcc00;
+}
+
+.reset {
+  color: white;
+  background-color: #ff0000;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+}
+
+.reset:active {
+  background-color: white;
+  color: #ff0000;
+}
+
+/*Laps*/
+#laps {
+  max-height: 270px;
+  overflow-y: scroll;
+}
+
+.lapDetails {
+  height: 50px;
+  border-bottom: 1.5px solid #33cc33;
+  margin: 15px;
+}
+
+.lapTimeTitle {
+  font-size: 2.5em;
+  float: left;
+}
+
+.lapTime {
+  font-size: 2.5em;
+  float: right;
+}
